@@ -1,7 +1,7 @@
 # Over 2500 dev blogs dataset
 A collection of developer related blogs and publications.  
 
-## Make something cool!  
+## `Make something awesome and don't forget to add your blog!`
 
 ### Where did these come from?
 - https://github.com/kilimchoi/engineering-blogs  
