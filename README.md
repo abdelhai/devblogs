@@ -17,7 +17,7 @@ These sites are yet to be parsed and put into the list:
 - https://www.getlektor.com/showcase/  
 
 ### Thanks
-Many thanks to @Decagon, @funkylexoo, @dvpxl, @Ryan-McBride and @seejohnrun for contributing.  
+Many thanks to @Decagon, @funkylexoo, @dvpxl, @Ryan-McBride, @seejohnrun, @Nebhay and @skx for contributing.  
 
 ### License
 
