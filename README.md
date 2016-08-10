@@ -1,4 +1,4 @@
-# Over 2500 dev blogs dataset
+# Over 2200 dev blogs dataset
 A collection of developer related blogs and publications.  
 
 ## `Make something awesome and don't forget to add your blog!`
@@ -17,7 +17,7 @@ These sites are yet to be parsed and put into the list:
 - https://www.getlektor.com/showcase/  
 
 ### Thanks
-Many thanks to @Decagon, @funkylexoo, @dvpxl, @Ryan-McBride, @seejohnrun, @Nebhay and @skx for contributing.  
+Many thanks to @Decagon, @funkylexoo, @dvpxl, @Ryan-McBride, @seejohnrun, @Nebhay, @skx, @GuiSim, @nearbycoder and @maciekmm for contributing.  
 
 ### License
 
