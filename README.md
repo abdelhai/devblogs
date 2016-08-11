@@ -13,7 +13,7 @@ A collection of developer related blogs and publications.
 ### Can you give me moar??!3
 These sites are yet to be parsed and put into the list:  
 - http://gohugo.io/showcase/  
-- https://github.com/getpelican/pelican/wiki/Powered-by-Pelican  
+- https://github.com/getpelican/pelican/wiki/Powered-by-Pelican (done) 
 - https://www.getlektor.com/showcase/  
 
 ### Thanks
