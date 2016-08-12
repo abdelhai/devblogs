@@ -1,0 +1,1394 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    
+
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-be4c6e0e479a2d4d0eb3159c8772b5bfc4aa39831cb28f5f92cc2e448d93eaa1.css" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-74799a246b311c7844ffbe1b262207ee8b1fd3edb94ac8f16770f80e97720879.css" media="all" rel="stylesheet" />
+    
+    
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/site-c31d97cdffdd1a140b356a16a2e2b37db7c98fa23ce2127f79a61bc338af1083.css" media="all" rel="stylesheet" />
+    
+
+    <link as="script" href="https://assets-cdn.github.com/assets/frameworks-efdb851061bb7933d0e409f8be67f6ae483a2fa8612b913ae2678aa4abf4569a.js" rel="preload" />
+    
+    <link as="script" href="https://assets-cdn.github.com/assets/github-8cefd4d3873fd29d8173f9b396fc15c35fde209962f937c739072971fb4a62c3.js" rel="preload" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=device-width">
+    
+    <title>Powered by Pelican · getpelican/pelican Wiki · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="https://avatars2.githubusercontent.com/u/2043492?v=3&amp;s=400" name="twitter:image:src" /><meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="getpelican/pelican" name="twitter:title" /><meta content="pelican - Static site generator that supports Markdown and reST syntax. Powered by Python." name="twitter:description" />
+      <meta content="https://avatars2.githubusercontent.com/u/2043492?v=3&amp;s=400" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="getpelican/pelican" property="og:title" /><meta content="https://github.com/getpelican/pelican" property="og:url" /><meta content="pelican - Static site generator that supports Markdown and reST syntax. Powered by Python." property="og:description" />
+      <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+    <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    
+    <meta name="pjax-timeout" content="1000">
+    
+    <meta name="request-id" content="5DE8CDA7:13EBE:160F927:57ACF674" data-pjax-transient>
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_wiki" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+<meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="5DE8CDA7:13EBE:160F927:57ACF674" name="octolytics-dimension-request_id" />
+<meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/wiki/show" data-pjax-transient="true" name="analytics-location" />
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+
+        <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+        <meta name="expected-hostname" content="github.com">
+      <meta name="js-proxy-site-detection-payload" content="OGQ2ZjU0Y2UwMmQ0M2FjNzNkMTJkOGY5NjRjZTRmOTEzNmNlYTVhNjQ4NTM2OGM0YTA2NzBlNjQyOGYwNDEzYnx7InJlbW90ZV9hZGRyZXNzIjoiOTMuMjMyLjIwNS4xNjciLCJyZXF1ZXN0X2lkIjoiNURFOENEQTc6MTNFQkU6MTYwRjkyNzo1N0FDRjY3NCIsInRpbWVzdGFtcCI6MTQ3MDk1MzA3Nn0=">
+
+
+      <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
+      <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+    <meta name="html-safe-nonce" content="c52347317c84291ea7ef7fc1a6fd3125f20c1f34">
+    <meta content="880db8ecf16ec7031ebf3cf99d50ace8292d93df" name="form-nonce" />
+
+    <meta http-equiv="x-pjax-version" content="88e57562bb41131567dbb201d846b402">
+    
+
+      
+  <meta name="description" content="pelican - Static site generator that supports Markdown and reST syntax. Powered by Python.">
+  <meta name="go-import" content="github.com/getpelican/pelican git https://github.com/getpelican/pelican.git">
+
+  <meta content="2043492" name="octolytics-dimension-user_id" /><meta content="getpelican" name="octolytics-dimension-user_login" /><meta content="993110" name="octolytics-dimension-repository_id" /><meta content="getpelican/pelican" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="993110" name="octolytics-dimension-repository_network_root_id" /><meta content="getpelican/pelican" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/getpelican/pelican/commits/master.atom" rel="alternate" title="Recent Commits to pelican:master" type="application/atom+xml">
+
+
+  </head>
+
+
+  <body class="logged-out  env-production  vis-public">
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+
+    
+    
+    
+
+
+
+          <header class="site-header js-details-container" role="banner">
+  <div class="container-responsive">
+    <a class="header-logo-invertocat" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+      <svg aria-hidden="true" class="octicon octicon-mark-github" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+    </a>
+
+    <button class="btn-link right site-header-toggle js-details-target" type="button" aria-label="Toggle navigation">
+      <svg aria-hidden="true" class="octicon octicon-three-bars" height="24" version="1.1" viewBox="0 0 12 16" width="18"><path d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"></path></svg>
+    </button>
+
+    <div class="site-header-menu">
+      <nav class="site-header-nav site-header-nav-main">
+        <a href="/personal" class="js-selected-navigation-item nav-item nav-item-personal" data-ga-click="Header, click, Nav menu - item:personal" data-selected-links="/personal /personal">
+          Personal
+</a>        <a href="/open-source" class="js-selected-navigation-item nav-item nav-item-opensource" data-ga-click="Header, click, Nav menu - item:opensource" data-selected-links="/open-source /open-source">
+          Open source
+</a>        <a href="/business" class="js-selected-navigation-item nav-item nav-item-business" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/features /business/customers /business">
+          Business
+</a>        <a href="/explore" class="js-selected-navigation-item nav-item nav-item-explore" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship /explore">
+          Explore
+</a>      </nav>
+
+      <div class="site-header-actions">
+            <a class="btn btn-primary site-header-actions-btn" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+          <a class="btn site-header-actions-btn mr-2" href="/login?return_to=%2Fgetpelican%2Fpelican%2Fwiki%2FPowered-by-Pelican" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+      </div>
+
+        <nav class="site-header-nav site-header-nav-secondary">
+          <a class="nav-item" href="/pricing">Pricing</a>
+          <a class="nav-item" href="/blog">Blog</a>
+          <a class="nav-item" href="https://help.github.com">Support</a>
+          <a class="nav-item header-search-link" href="https://github.com/search">Search GitHub</a>
+              <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/getpelican/pelican/search" class="js-site-search-form" data-scoped-search-url="/getpelican/pelican/search" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <label class="form-control header-search-wrapper js-chromeless-input-container">
+      <div class="header-search-scope">This repository</div>
+      <input type="text"
+        class="form-control header-search-input js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s"
+        name="q"
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off">
+    </label>
+</form></div>
+
+        </nav>
+    </div>
+  </div>
+</header>
+
+
+
+    <div id="start-of-content" class="accessibility-aid"></div>
+
+      <div id="js-flash-container">
+</div>
+
+
+    <div role="main">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode">
+    <div id="js-repo-pjax-container" data-pjax-container>
+      
+<div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav">
+  <div class="container repohead-details-container">
+
+    
+
+<ul class="pagehead-actions">
+
+  <li>
+      <a href="/login?return_to=%2Fgetpelican%2Fpelican"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/getpelican/pelican/watchers">
+    329
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fgetpelican%2Fpelican"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/getpelican/pelican/stargazers">
+      6,014
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fgetpelican%2Fpelican"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg aria-hidden="true" class="octicon octicon-repo-forked" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+        Fork
+      </a>
+
+    <a href="/getpelican/pelican/network" class="social-count">
+      1,275
+    </a>
+  </li>
+</ul>
+
+    <h1 class="public ">
+  <svg aria-hidden="true" class="octicon octicon-repo" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+  <span class="author" itemprop="author"><a href="/getpelican" class="url fn" rel="author">getpelican</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a href="/getpelican/pelican" data-pjax="#js-repo-pjax-container">pelican</a></strong>
+
+</h1>
+
+  </div>
+  <div class="container">
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="/getpelican/pelican" class="js-selected-navigation-item reponav-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /getpelican/pelican" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-code" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"></path></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a href="/getpelican/pelican/issues" class="js-selected-navigation-item reponav-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /getpelican/pelican/issues" itemprop="url">
+        <svg aria-hidden="true" class="octicon octicon-issue-opened" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg>
+        <span itemprop="name">Issues</span>
+        <span class="counter">126</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="/getpelican/pelican/pulls" class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls /getpelican/pelican/pulls" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="counter">67</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a href="/getpelican/pelican/wiki" aria-selected="true" class="js-selected-navigation-item selected reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /getpelican/pelican/wiki">
+      <svg aria-hidden="true" class="octicon octicon-book" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"></path></svg>
+      Wiki
+</a>
+
+  <a href="/getpelican/pelican/pulse" class="js-selected-navigation-item reponav-item" data-selected-links="pulse /getpelican/pelican/pulse">
+    <svg aria-hidden="true" class="octicon octicon-pulse" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M11.5 8L8.8 5.4 6.6 8.5 5.5 1.6 2.38 8H0v2h3.6l.9-1.8.9 5.4L9 8.5l1.6 1.5H14V8z"></path></svg>
+    Pulse
+</a>
+  <a href="/getpelican/pelican/graphs" class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors /getpelican/pelican/graphs">
+    <svg aria-hidden="true" class="octicon octicon-graph" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"></path></svg>
+    Graphs
+</a>
+
+</nav>
+
+  </div>
+</div>
+
+<div class="container new-discussion-timeline experiment-repo-nav">
+  <div class="repository-content">
+
+    
+
+<div id="wiki-wrapper" class="wiki-wrapper page">
+<div class="gh-header">
+  <div class="gh-header-show">
+    <h1 class="gh-header-title instapaper_title">Powered by Pelican</h1>
+      <div class="gh-header-meta">
+        John Marquess edited this page <relative-time datetime="2016-07-03T06:01:39Z">Jul 3, 2016</relative-time>
+        &middot;
+        <a href="/getpelican/pelican/wiki/Powered-by-Pelican/_history" class="history">
+          78 revisions
+        </a>
+      </div>
+  </div>
+</div>
+<div id="wiki-content" class="wiki-content">
+  <div class="has-rightbar">
+
+  <div id="wiki-rightbar" class="wiki-rightbar">
+    <div class="wiki-pages-box readability-sidebar boxed-group flush js-wiki-pages-box " role="navigation">
+      
+<h3 class="js-wiki-toggle-collapse wiki-auxiliary-content">
+  <svg aria-hidden="true" class="octicon octicon-triangle-down caret-expanded" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M0 5l6 6 6-6z"></path></svg>
+  <svg aria-hidden="true" class="octicon octicon-triangle-right caret-collapsed" height="16" version="1.1" viewBox="0 0 6 16" width="6"><path d="M0 14l6-6-6-6z"></path></svg>
+  Pages <span class="counter">6</span>
+</h3>
+<div class="boxed-group-inner wiki-auxiliary-content wiki-auxiliary-content-no-bg">
+
+  <ul class="wiki-pages" data-filterable-for="wiki-pages-filter" data-filterable-type="substring">
+    <li>
+      <strong><a href="/getpelican/pelican/wiki" class="wiki-page-link">Home</a></strong>
+    </li>
+    <li>
+      <strong><a href="/getpelican/pelican/wiki/Externally-hosted-plugins-and-tools" class="wiki-page-link">Externally hosted plugins and tools</a></strong>
+    </li>
+    <li>
+      <strong><a href="/getpelican/pelican/wiki/Git-Tips" class="wiki-page-link">Git Tips</a></strong>
+    </li>
+    <li>
+      <strong><a href="/getpelican/pelican/wiki/Powered-by-Pelican" class="wiki-page-link">Powered by Pelican</a></strong>
+    </li>
+    <li>
+      <strong><a href="/getpelican/pelican/wiki/Tips-n-Tricks" class="wiki-page-link">Tips n Tricks</a></strong>
+    </li>
+    <li>
+      <strong><a href="/getpelican/pelican/wiki/Tutorials" class="wiki-page-link">Tutorials</a></strong>
+    </li>
+  </ul>
+</div>
+
+    </div>
+
+
+    <div class="clone-url">
+      <h5>Clone this wiki locally</h5>
+      <div class="input-group js-zeroclipboard-container">
+        <input type="text" class="form-control input-sm text-small text-muted input-monospace js-url-field js-zeroclipboard-target"
+               value="https://github.com/getpelican/pelican.wiki.git" readonly="readonly">
+        <span class="input-group-button">
+          <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><svg aria-hidden="true" class="octicon octicon-clippy" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"></path></svg></button>
+        </span>
+      </div>
+
+
+    </div>
+  </div>
+
+  <div id="wiki-body" class="wiki-body gollum-markdown-content instapaper_body">
+      <div class="markdown-body">
+        <p>Add your site to the bottom of this list, highlighting any features that may serve as examples for others.</p>
+
+<h2>
+<a id="user-content-the-linux-kernel-archives" class="anchor" href="#the-linux-kernel-archives" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>The Linux Kernel Archives</h2>
+
+<ul>
+<li>Site: <a href="https://www.kernel.org/pelican.html">https://www.kernel.org/pelican.html</a>
+</li>
+<li>Source: <a href="http://git.kernel.org/cgit/docs/kernel/website.git">http://git.kernel.org/cgit/docs/kernel/website.git</a>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-notmyideaorg" class="anchor" href="#notmyideaorg" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>notmyidea.org</h2>
+
+<ul>
+<li>Site: <a href="http://blog.notmyidea.org/">http://blog.notmyidea.org/</a>
+</li>
+<li>Source: <a href="https://github.com/ametaireau/notmyidea">https://github.com/ametaireau/notmyidea</a>
+</li>
+<li>Theme: a modified version of [notmyidea][]</li>
+<li>Features:
+
+<ul>
+<li>Original inspiration for creating Pelican <img class="emoji" title=":smile:" alt=":smile:" src="https://camo.githubusercontent.com/9d8dc7a0d4c53e76fb8f56cbb1785d887c8bdf24/68747470733a2f2f6173736574732d63646e2e6769746875622e636f6d2f696d616765732f69636f6e732f656d6f6a692f756e69636f64652f31663630342e706e67" height="20" width="20" align="absmiddle" data-canonical-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f604.png">
+</li>
+<li>Custom Makefile</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-kylefullercouk" class="anchor" href="#kylefullercouk" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>kylefuller.co.uk</h2>
+
+<ul>
+<li>Site: <a href="http://kylefuller.co.uk/">http://kylefuller.co.uk/</a>
+</li>
+<li>Source: <a href="https://github.com/kylef/kylefuller.co.uk">https://github.com/kylef/kylefuller.co.uk</a>
+</li>
+<li>Features:
+
+<ul>
+<li>Deployment automation via Fabric</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-hacker-codex" class="anchor" href="#hacker-codex" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Hacker Codex</h2>
+
+<ul>
+<li>Site: <a href="http://hackercodex.com/">http://hackercodex.com/</a>
+</li>
+<li>Source: (forthcoming)</li>
+<li>Theme: customized version of [notmyidea][]</li>
+<li>Features:
+
+<ul>
+<li>Clean, cruft-free URLs</li>
+<li>Feeds on separate sub-domain</li>
+<li>Disqus comments</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-buddycloudcom" class="anchor" href="#buddycloudcom" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Buddycloud.com</h2>
+
+<ul>
+<li>Site: <a href="http://buddycloud.com/">http://buddycloud.com/</a>
+</li>
+<li>Source: <a href="https://github.com/buddycloud/buddycloud.com">https://github.com/buddycloud/buddycloud.com</a>
+</li>
+<li>Theme: <a href="https://github.com/tbunnyman/pelican-chunk">Chunk</a>
+</li>
+<li>Features:
+
+<ul>
+<li>Custom Markdown extensions</li>
+<li>Custom Jinja extension that adds a ToC for enabled pages</li>
+<li>Custom Pelican extension for adding a Slate API page</li>
+<li>Olark chats</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-bunnymaninfo" class="anchor" href="#bunnymaninfo" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>BunnyMan.info</h2>
+
+<ul>
+<li>Site: <a href="http://bunnyman.info/">http://bunnyman.info/</a>
+</li>
+<li>Source: <a href="https://github.com/tbunnyman/BunnyMan.info">https://github.com/tbunnyman/BunnyMan.info</a>
+</li>
+<li>Theme: <a href="https://github.com/tbunnyman/pelican-chunk">Chunk</a>
+</li>
+<li>Features:
+
+<ul>
+<li>Hidden pages for 404, 50x</li>
+<li>Custom Makefile</li>
+<li>Extensive multimarkdown</li>
+<li>Disqus comments</li>
+<li>Mint stats tracking</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-vegas-furry-arts" class="anchor" href="#vegas-furry-arts" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Vegas Furry Arts</h2>
+
+<ul>
+<li>Site: <a href="http://www.vegasfur.com/">http://www.vegasfur.com/</a>
+</li>
+<li>Source: <a href="https://github.com/tbunnyman/Vegas-Furry-Arts">https://github.com/tbunnyman/Vegas-Furry-Arts</a>
+</li>
+<li>Theme: [notmyidea][]</li>
+<li>Features:
+
+<ul>
+<li>Hidden pages for 404</li>
+<li>Pelican 3.0 development/production makefile</li>
+<li>Quick theme development script from 3.0</li>
+<li>Disqus comments</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-bottlepy-dev" class="anchor" href="#bottlepy-dev" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>bottlepy-dev</h2>
+
+<ul>
+<li>Site: <a href="http://blog.bottlepy.org/">http://blog.bottlepy.org/</a>
+</li>
+<li>Source: <a href="https://github.com/defnull/blog.bottlepy.org">https://github.com/defnull/blog.bottlepy.org</a>
+</li>
+<li>Theme: bottle-theme (based on [notmyidea][])</li>
+</ul>
+
+<h2>
+<a id="user-content-longwayaroundorguk" class="anchor" href="#longwayaroundorguk" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>longwayaround.org.uk</h2>
+
+<ul>
+<li>Site: <a href="http://longwayaround.org.uk/">http://longwayaround.org.uk/</a>
+</li>
+<li>Source: <a href="https://github.com/walkermatt/longwayaround.org.uk">https://github.com/walkermatt/longwayaround.org.uk</a>
+</li>
+<li>Theme: <a href="https://github.com/walkermatt/longwayaround.org.uk_theme">https://github.com/walkermatt/longwayaround.org.uk_theme</a>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-williamtingcom" class="anchor" href="#williamtingcom" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>williamting.com</h2>
+
+<ul>
+<li>Site: <a href="http://williamting.com/">http://williamting.com/</a>
+</li>
+<li>Source: <a href="https://github.com/wting/williamting.com">https://github.com/wting/williamting.com</a>
+</li>
+<li>Theme: <a href="https://github.com/wting/pelican-svbtle">svbtle</a>
+</li>
+<li>Features:
+
+<ul>
+<li>code syntax highlighting</li>
+<li>Disqus comments</li>
+<li>Google analytics</li>
+<li>custom link list</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-dirkjanochtmannl" class="anchor" href="#dirkjanochtmannl" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>dirkjan.ochtman.nl</h2>
+
+<ul>
+<li>Site: <a href="http://dirkjan.ochtman.nl/">http://dirkjan.ochtman.nl/</a>
+</li>
+<li>Theme: custom, inspired by Octopress</li>
+</ul>
+
+<h2>
+<a id="user-content-azizmbin" class="anchor" href="#azizmbin" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>azizmb.in</h2>
+
+<ul>
+<li>Site: <a href="http://azizmb.in/">http://azizmb.in/</a>
+</li>
+<li>Theme: <a href="https://github.com/azizmb/pelican-bootstrap-responsive-theme">https://github.com/azizmb/pelican-bootstrap-responsive-theme</a>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-icompk" class="anchor" href="#icompk" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>i.com.pk</h2>
+
+<ul>
+<li>Site: <a href="http://www.i.com.pk">http://www.i.com.pk</a>
+</li>
+<li>Theme: Custom Designed</li>
+<li>Features:
+
+<ul>
+<li>HTML5</li>
+<li>Responsive design</li>
+<li>Typogrify</li>
+<li>pygment</li>
+<li>Imported from posterous</li>
+<li>Hosted on Heroku using Static, gunicorn and gevent</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-decayfilmcom" class="anchor" href="#decayfilmcom" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>DecayFilm.com</h2>
+
+<ul>
+<li>Site: <a href="http://www.decayfilm.com/">http://www.decayfilm.com/</a>
+</li>
+<li>Theme: (Heavily modified notmyidea) <a href="https://github.com/brookst/decay">https://github.com/brookst/decay</a>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-nwcpporg" class="anchor" href="#nwcpporg" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>nwcpp.org</h2>
+
+<ul>
+<li>Site: <a href="http://nwcpp.org/">http://nwcpp.org/</a>
+</li>
+<li>Source: <a href="https://github.com/nwcpp/pelican-site">https://github.com/nwcpp/pelican-site</a>
+</li>
+<li>Theme: a lightly modified version of [notmyidea]</li>
+<li>Conversion described at <a href="http://nwcpp.org/2013-website-refresh.html">http://nwcpp.org/2013-website-refresh.html</a>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-mozillazgcom" class="anchor" href="#mozillazgcom" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>mozillazg.com</h2>
+
+<ul>
+<li>Site: <a href="http://mozillazg.com">http://mozillazg.com</a>
+</li>
+<li>Source: <a href="https://github.com/mozillazg/mozillazg.com">https://github.com/mozillazg/mozillazg.com</a>
+</li>
+<li>Theme: <a href="https://github.com/wamonite/relapse">relapse</a>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-arduinoada-languagecom" class="anchor" href="#arduinoada-languagecom" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>arduino.ada-language.com</h2>
+
+<ul>
+<li>Site: <a href="http://arduino.ada-language.com/">http://arduino.ada-language.com/</a>
+</li>
+<li>Source: <a href="https://bitbucket.org/tkoskine/arduino-blog/">https://bitbucket.org/tkoskine/arduino-blog/</a>
+</li>
+<li>Theme: Custom, based on <a href="http://getskeleton.com">skeleton</a>
+</li>
+<li>Features:
+
+<ul>
+<li>Disqus comments</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-databreweryorg" class="anchor" href="#databreweryorg" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>databrewery.org</h2>
+
+<ul>
+<li>Site: <a href="http://databrewery.org">http://databrewery.org</a>
+</li>
+<li>Site: <a href="http://blog.databrewery.org">http://blog.databrewery.org</a>
+</li>
+<li>Source: <a href="https://github.com/Stiivi/databrewery.org">https://github.com/Stiivi/databrewery.org</a>
+</li>
+<li>Theme: custom theme</li>
+<li>Features:
+
+<ul>
+<li>Two projects, one blog and main page (single page, just reusing shared theme settings)</li>
+<li>Simple plugin for generating content of boxes on pages</li>
+<li>Custom Makefile</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-michaelreneercom" class="anchor" href="#michaelreneercom" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>michaelreneer.com</h2>
+
+<ul>
+<li>Site: <a href="http://michaelreneer.com/">http://michaelreneer.com/</a>
+</li>
+<li>Source: <a href="https://github.com/michaelreneer/michaelreneer.github.io">https://github.com/michaelreneer/michaelreneer.github.io</a>
+</li>
+<li>Theme: customized based on <a href="http://html5boilerplate.com">HTML5 Boilerplate</a>
+</li>
+<li>Features:
+
+<ul>
+<li>Mobile first responsive design with <a href="http://twitter.github.io/bootstrap/">Bootstrap</a> &amp; <a href="http://necolas.github.io/normalize.css/">Normalize.css</a>
+</li>
+<li>
+<a href="https://twitter.com/about/resources/buttons">Twitter Buttons</a> &amp; <a href="http://ghbtns.com">GitHub Buttons</a>
+</li>
+<li>Clean URLs</li>
+<li>Custom Makefile</li>
+<li>Pygments, webassets, Markdown</li>
+<li>Disqus comments</li>
+<li>Google analytics</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-arunrockscom" class="anchor" href="#arunrockscom" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>arunrocks.com</h2>
+
+<ul>
+<li>Site: <a href="http://arunrocks.com/">http://arunrocks.com/</a>
+</li>
+<li>Source: Not released. Ideas and inspiration <a href="http://arunrocks.com/moving-blogs-to-pelican/">http://arunrocks.com/moving-blogs-to-pelican/</a>
+</li>
+<li>Theme: custom built from scratch</li>
+<li>Features:
+
+<ul>
+<li>Mobile-first Responsive design</li>
+<li>Markdown extension for pullquote</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-avaris" class="anchor" href="#avaris" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>avar.is</h2>
+
+<ul>
+<li>Site: <a href="http://avar.is/">http://avar.is/</a>
+</li>
+<li>Source: not released</li>
+<li>Theme: custom built from scratch</li>
+<li>Features:
+
+<ul>
+<li>HTML5/CSS3 responsive design</li>
+<li>Deployment automation with <a href="https://github.com/sitaramc/gitolite">gitolite</a> hooks</li>
+<li>pygments</li>
+<li>plugins: assets, typogrify, neighbors and a custom plugin for tag hierarchy</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-gregredacom" class="anchor" href="#gregredacom" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>gregreda.com</h2>
+
+<ul>
+<li>Site: <a href="http://www.gregreda.com/">http://www.gregreda.com/</a>
+</li>
+<li>Theme: custom based on <a href="http://getskeleton.com">Skeleton</a>
+</li>
+<li>Features:
+
+<ul>
+<li>Mobile-responsive design</li>
+<li>Google Analytics</li>
+<li>Disqus comments</li>
+<li>Pygments</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-bytefishde" class="anchor" href="#bytefishde" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>bytefish.de</h2>
+
+<ul>
+<li>Site: <a href="http://www.bytefish.de">http://www.bytefish.de</a>
+</li>
+<li>Source: <a href="https://github.com/bytefish/bytefish.de">https://github.com/bytefish/bytefish.de</a>
+</li>
+<li>Theme: custom</li>
+<li>Features:
+
+<ul>
+<li>Disqus comments</li>
+<li>Pygments</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-varunksainicom" class="anchor" href="#varunksainicom" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>varunksaini.com</h2>
+
+<ul>
+<li>Site: <a href="http://varunksaini.com/">http://varunksaini.com/</a>
+</li>
+<li>Source: <a href="https://github.com/varun06/varunsainiblog">https://github.com/varun06/varunsainiblog</a>
+</li>
+<li>Theme: svbtle (Modified)</li>
+<li>Features:
+
+<ul>
+<li>code syntax highlighting</li>
+<li>Disqus comments</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-unikornme" class="anchor" href="#unikornme" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>unikorn.me</h2>
+
+<ul>
+<li>Site: <a href="http://blog.unikorn.me">http://blog.unikorn.me</a>
+</li>
+<li>Source: not released</li>
+<li>Features
+
+<ul>
+<li>Custom theme based on amazium
+
+<ul>
+<li>super-lightweight</li>
+<li>responsive design - works on mobile and desktop</li>
+<li>Dynamic canvas background</li>
+</ul>
+</li>
+<li>Disqus comments</li>
+<li>syntax highlighting</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-ascraeusorg" class="anchor" href="#ascraeusorg" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ascraeus.org</h2>
+
+<ul>
+<li>Site: <a href="http://ascraeus.org">http://ascraeus.org</a>
+</li>
+<li>Source: not released</li>
+<li>Theme: Custom based on old tumblr theme, now utilising <a href="http://getskeleton.com">Skeleton</a>
+</li>
+<li>Features:
+
+<ul>
+<li>Responsive design</li>
+<li>disqus comments</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-aaronkavlienet" class="anchor" href="#aaronkavlienet" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>aaron.kavlie.net</h2>
+
+<ul>
+<li>Site: <a href="http://aaron.kavlie.net">http://aaron.kavlie.net</a>
+</li>
+<li>Theme: Custom based on <a href="https://github.com/getpelican/pelican-themes/tree/master/mnmlist">mnmlist</a>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-oncrash--reboot" class="anchor" href="#oncrash--reboot" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>onCrash = Reboot();</h2>
+
+<ul>
+<li>Site: <a href="http://oncrashreboot.com/">http://oncrashreboot.com/</a>
+</li>
+<li>Source: <a href="https://github.com/talha131/onCrashReboot">https://github.com/talha131/onCrashReboot</a>
+</li>
+<li>Theme: <a href="http://oncrashreboot.com/pelican-elegant/">Elegant</a>
+</li>
+<li>Features:
+
+<ul>
+<li>Site Search using open source Tipue Search plugin</li>
+<li>Mailchimp support</li>
+<li>Responsive design</li>
+<li>Clean but elegant UI</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-naeka-blog" class="anchor" href="#naeka-blog" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Naeka Blog</h2>
+
+<ul>
+<li>Site: <a href="https://blog.naeka.fr/">https://blog.naeka.fr/</a>
+</li>
+<li>Theme: Custom, made using <a href="http://getbootstrap.com/">Twitter Bootstrap 3</a>
+</li>
+<li>Features:
+
+<ul>
+<li>Deployment automation via Travis-CI</li>
+<li>Responsive design</li>
+<li>Minimalist</li>
+<li>Google analytics</li>
+<li>Pagination</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-nortonwangcom" class="anchor" href="#nortonwangcom" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>nortonwang.com</h2>
+
+<ul>
+<li>Site: <a href="http://nortonwang.com/">http://nortonwang.com/</a>
+</li>
+<li>Source: <a href="https://github.com/FloorLamp/nortonwang-com">https://github.com/FloorLamp/nortonwang-com</a>
+</li>
+<li>Theme: Custom</li>
+<li>Features:
+
+<ul>
+<li>Minimal and responsive</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-johzme" class="anchor" href="#johzme" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>johz.me</h2>
+
+<ul>
+<li>Site: <a href="http://johz.me/">http://johz.me/</a>
+</li>
+<li>Source: Will be up later</li>
+<li>Theme: <a href="https://github.com/MrJohz/pillbox-theme">https://github.com/MrJohz/pillbox-theme</a> + extras</li>
+<li>Features:
+
+<ul>
+<li>Minimal, flat design</li>
+<li>Client-side persistent theme switcher</li>
+<li>Random quotes</li>
+<li>Piwik, disqus support</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-pythonrsorg" class="anchor" href="#pythonrsorg" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>pythonrs.org</h2>
+
+<ul>
+<li>Site: <a href="http://pythonrs.org">http://pythonrs.org</a>
+</li>
+<li>Source: <a href="http://github.com/berlotto">http://github.com/berlotto</a>
+</li>
+<li>Theme: <a href="https://github.com/berlotto/bootstrap-simple-plus">https://github.com/berlotto/bootstrap-simple-plus</a>
+</li>
+<li>Features:
+
+<ul>
+<li>Bootstraped</li>
+<li>Disqus</li>
+<li>Statcounter</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-letchapgithubio" class="anchor" href="#letchapgithubio" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>letchap.github.io</h2>
+
+<ul>
+<li>Site: <a href="http://letchap.github.io">http://letchap.github.io</a>
+</li>
+<li>Source: <a href="https://github.com/letchap/letchap.github.io">https://github.com/letchap/letchap.github.io</a>
+</li>
+<li>Theme: <a href="https://github.com/letchap/letchap.github.io/tree/source/mon-theme">https://github.com/letchap/letchap.github.io/tree/source/mon-theme</a>
+</li>
+<li>Features:
+
+<ul>
+<li>Theme Foundation</li>
+<li>Disqus</li>
+<li>Google analytics</li>
+<li>RSS feed</li>
+<li>Pygments</li>
+<li>Custom markdown extension to include code</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-data-driven-security" class="anchor" href="#data-driven-security" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Data Driven Security</h2>
+
+<ul>
+<li>Site: <a href="http://datadrivensecurity.info/blog">http://datadrivensecurity.info/blog</a>
+</li>
+<li>Theme: modified sundown</li>
+<li>Features:
+
+<ul>
+<li>Disqus</li>
+<li>Google, iwik analytics</li>
+<li>RSS feed</li>
+<li>Pygments</li>
+<li>Auto-generation from github service hooks</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-sagarse" class="anchor" href="#sagarse" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>sagar.se</h2>
+
+<ul>
+<li>Site: <a href="http://sagar.se">http://sagar.se</a>
+</li>
+<li>Source: <a href="https://github.com/sagarbehere/sagar.se">https://github.com/sagarbehere/sagar.se</a>
+</li>
+<li>Theme: a slightly modified version of <a href="https://github.com/duilio/pelican-octopress-theme">pelican-octopress-theme</a>
+</li>
+<li>Theme source: <a href="https://github.com/sagarbehere/pelican-octopress-theme">https://github.com/sagarbehere/pelican-octopress-theme</a>
+</li>
+<li>Features:
+
+<ul>
+<li>Dropdown CSS menu in navbar</li>
+<li>https friendly. No mixed content warnings</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-bekirkarulcom" class="anchor" href="#bekirkarulcom" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>bekirkarul.com</h2>
+
+<ul>
+<li>Site: <a href="http://bekirkarul.com">http://bekirkarul.com</a>
+</li>
+<li>Theme: a modified version of [neat]</li>
+</ul>
+
+<h2>
+<a id="user-content-omphalosskepticgithubio" class="anchor" href="#omphalosskepticgithubio" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>omphalosskeptic.github.io</h2>
+
+<ul>
+<li>Site: <a href="http://omphalosskeptic.github.io">http://omphalosskeptic.github.io</a>
+</li>
+<li>Source: <a href="https://github.com/omphalosskeptic/omphalosskeptic.github.io">https://github.com/omphalosskeptic/omphalosskeptic.github.io</a>
+</li>
+<li>Theme: Based on Simple</li>
+<li>Features:
+
+<ul>
+<li>Minimal design &amp; Readable Typography</li>
+</ul>
+</li>
+</ul>
+
+<p><img src="https://camo.githubusercontent.com/4c9ddedb8b9ddf0d58335d63adc0e979fa423626/687474703a2f2f6f6d7068616c6f73736b65707469632e6769746875622e696f2f7468656d652f696d616765732f74686973736974652e706e67" alt="Screenshot" data-canonical-src="http://omphalosskeptic.github.io/theme/images/thissite.png"></p>
+
+<h2>
+<a id="user-content-zufallsheldde" class="anchor" href="#zufallsheldde" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>zufallsheld.de</h2>
+
+<ul>
+<li>Site: <a href="http://zufallsheld.de">http://zufallsheld.de</a>
+</li>
+<li>Source: <a href="https://github.com/rndmh3ro/blog">https://github.com/rndmh3ro/blog</a>
+</li>
+<li>Theme: Customized pelican-bootstrap3</li>
+<li>Features:
+
+<ul>
+<li>
+<a href="https://github.com/posativ/isso">isso</a> commenting system, self-hosted</li>
+<li>Piwik support</li>
+<li>minimalist, responsive design</li>
+<li>RSS feeds</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-thesoldiersfamilycom" class="anchor" href="#thesoldiersfamilycom" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>thesoldiersfamily.com</h2>
+
+<ul>
+<li>Site: <a href="http://www.thesoldiersfamily.com">http://www.thesoldiersfamily.com</a>
+</li>
+<li>Source: Not Published</li>
+<li>Theme: Custom based on porto</li>
+<li>Features:
+
+<ul>
+<li>Search</li>
+<li>Responsive</li>
+<li>Normal web page stuff</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-pythonclubcombr" class="anchor" href="#pythonclubcombr" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>pythonclub.com.br</h2>
+
+<ul>
+<li>Site: pythonclub.com.br</li>
+<li>Source: <a href="https://github.com/pythonclub/pythonclub.github.io">https://github.com/pythonclub/pythonclub.github.io</a>
+</li>
+<li>Theme: Custom based on <a href="http://purepelican.com/">http://purepelican.com/</a> theme</li>
+<li>Features:
+
+<ul>
+<li>Search</li>
+<li>Responsive by google search</li>
+<li>Normal web page stuff</li>
+<li>RSS feeds</li>
+<li>Disqus</li>
+<li>Share on Twitter, Facebook, Google+</li>
+<li>Author personal facebook, twitter, Linkedin, Github, Gittip, Bitbucket</li>
+<li>Google analytics</li>
+<li>Pygments</li>
+<li>Auto-generation from github service hooks</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-pythonworldru" class="anchor" href="#pythonworldru" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>pythonworld.ru</h2>
+
+<ul>
+<li>Site: <a href="http://pythonworld.ru">http://pythonworld.ru</a>
+</li>
+<li>Source: Not Published</li>
+<li>Theme: Custom</li>
+<li>Features:
+
+<ul>
+<li>Responsive by google search</li>
+<li>RSS feeds</li>
+<li>Disqus</li>
+<li>Share on Twitter, Facebook, Google+, Vkontakte</li>
+<li>Pygments</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-signalsurvival" class="anchor" href="#signalsurvival" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>SignalSurvival</h2>
+
+<ul>
+<li>Site: <a href="https://www.signalsurvival.com">https://www.signalsurvival.com</a>
+</li>
+<li>Theme: Custom</li>
+<li>Features:
+
+<ul>
+<li>Responsive Design</li>
+<li>Search</li>
+<li>Contact form with Formspree.io</li>
+<li>Aweber integration with pages for sign-up, "make sure to click link in email", and "thanks for subscribing"</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-abr4xasorg" class="anchor" href="#abr4xasorg" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>abr4xas.org</h2>
+
+<ul>
+<li>Site: <a href="http://blog.abr4xas.org/">http://blog.abr4xas.org/</a>
+</li>
+<li>Source: <a href="https://github.com/abr4xas/pblog">https://github.com/abr4xas/pblog</a>
+</li>
+<li>Theme: a modified version of <a href="https://github.com/TryGhost/Casper">Casper</a>
+</li>
+<li>Features:
+
+<ul>
+<li>DISQUS</li>
+<li>OPEN GRAPH</li>
+<li>GOOGLE ANALYTICS</li>
+<li>Responsive Design</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-ix5org" class="anchor" href="#ix5org" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ix5.org</h2>
+
+<ul>
+<li>Site: <a href="https://ix5.org/p/">https://ix5.org/p/</a>
+</li>
+<li>Source: Not published</li>
+<li>Theme: <a href="https://ix5.org/git/?p=pelican-blue-penguin.git;a=summary">pelican-blue-penguin</a>
+</li>
+<li>Features:
+
+<ul>
+<li>post_stats plugin support</li>
+<li>Responsive Design</li>
+<li>Readable typefaces included</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-odonnellweb" class="anchor" href="#odonnellweb" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ODonnellWeb</h2>
+
+<ul>
+<li>Site: <a href="http://odonnellweb.com/pelican">http://odonnellweb.com/pelican</a>
+</li>
+<li>Source: Not published yet</li>
+<li>Theme: Slightly edited version of <a href="https://github.com/getpelican/pelican-themes/tree/master/Just-Read">Just-Read</a>
+</li>
+<li>Features:
+
+<ul>
+<li>RSS feed</li>
+<li>13+ years of archives imported from Wordpress</li>
+<li>Disqus comments</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-ropython" class="anchor" href="#ropython" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>RoPython</h2>
+
+<ul>
+<li>Site: <a href="http://ropython.org">http://ropython.org</a>
+</li>
+<li>Source: <a href="https://github.com/RoPython/ropython-site">https://github.com/RoPython/ropython-site</a>
+</li>
+<li>Theme: Custom</li>
+<li>Features:
+
+<ul>
+<li>Highly customized navigation</li>
+<li>Customized category/tag pages</li>
+<li>Plugins: assets, sitemap, headerid etc</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-frogtoss-games" class="anchor" href="#frogtoss-games" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Frogtoss Games</h2>
+
+<ul>
+<li>Site: <a href="http://www.frogtoss.com">http://www.frogtoss.com</a>
+</li>
+<li>Theme: Custom</li>
+<li>Features:
+
+<ul>
+<li>Graphical icons for news stories</li>
+<li>Company landing page with news-style design</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-frogtoss-labs" class="anchor" href="#frogtoss-labs" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Frogtoss Labs</h2>
+
+<ul>
+<li>Site: <a href="http://www.frogtoss.com/labs">http://www.frogtoss.com/labs</a>
+</li>
+<li>Theme: Custom</li>
+<li>Features:
+
+<ul>
+<li>Compression and offsite imagery in case Notch links us</li>
+<li>A completely separate implementation from frogtoss.com</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-binsblog" class="anchor" href="#binsblog" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>BinsBlog</h2>
+
+<ul>
+<li>Site: <a href="http://www.binsblog.com">http://www.binsblog.com</a>
+</li>
+<li>Source: <a href="https://github.com/mdsingh007/simple-skeleton#simple-skeleton">https://github.com/mdsingh007/simple-skeleton#simple-skeleton</a>
+
+<ul>
+<li>Theme: Modified Simple theme, using Skeleton (Very Limited functionality at this point)</li>
+</ul>
+</li>
+<li>Features:
+
+<ul>
+<li>Responsive Design using Skeleton</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-my-homepage" class="anchor" href="#my-homepage" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>My Homepage</h2>
+
+<ul>
+<li>Site: <a href="http://simonh.me">http://simonh.me</a>
+</li>
+<li>Theme: octopress</li>
+<li>Features: No extra features yet</li>
+</ul>
+
+<h2>
+<a id="user-content--andreas--system-administrator-" class="anchor" href="#-andreas--system-administrator-" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>/ Andreas | System administrator /</h2>
+
+<ul>
+<li>Site: <a href="https://blog.bogosity.se/">https://blog.bogosity.se/</a>
+</li>
+<li>Source: <a href="https://git.lysator.liu.se/olsson/bogoblog">https://git.lysator.liu.se/olsson/bogoblog</a>
+</li>
+<li>Theme: Modified <a href="https://github.com/blueicefield/pelican-blueidea">blueidea</a>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-bloghenriquelopescombr" class="anchor" href="#bloghenriquelopescombr" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>blog.henriquelopes.com.br</h2>
+
+<ul>
+<li>Site: <a href="http://blog.henriquelopes.com.br">http://blog.henriquelopes.com.br</a>
+</li>
+<li>Source: <a href="https://github.com/riquellopes/riquellopes.github.io">https://github.com/riquellopes/riquellopes.github.io</a>
+</li>
+<li>Theme: notmyidea</li>
+</ul>
+
+<h2>
+<a id="user-content-boddyim" class="anchor" href="#boddyim" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>boddy.im</h2>
+
+<ul>
+<li>Site: <a href="http://boddy.im">http://boddy.im</a>
+</li>
+<li>Theme: <a href="https://github.com/PurePelicanTheme/pure-single">pure-single</a>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-tiborsimonio" class="anchor" href="#tiborsimonio" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>tiborsimon.io</h2>
+
+<ul>
+<li>Site: <a href="https://tiborsimon.io">https://tiborsimon.io</a>
+</li>
+<li>Theme: <a href="http://html5up.net">Escape Velocity</a> custom theme </li>
+<li>Site core: <a href="https://github.com/tiborsimon/tiborsimon.io-core">https://github.com/tiborsimon/tiborsimon.io-core</a>
+</li>
+<li>Site content: <a href="https://github.com/tiborsimon/tiborsimon.io-content">https://github.com/tiborsimon/tiborsimon.io-content</a>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-semiversuscom" class="anchor" href="#semiversuscom" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>semiversus.com</h2>
+
+<ul>
+<li>Site: <a href="https://www.semiversus.com">https://www.semiversus.com</a>
+</li>
+<li>Theme: Bootstrap based custom theme</li>
+<li>Source: <a href="https://github.com/semiversus/semiversus.github.io-source">https://github.com/semiversus/semiversus.github.io-source</a>
+</li>
+<li>Features:
+
+<ul>
+<li>Commenting with <a href="https://posativ.org/isso/">Isso</a>
+</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="user-content-snappy-title" class="anchor" href="#snappy-title" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Snappy title]</h2>
+
+<ul>
+<li>Site: <a href="http://marquess.me">http://marquess.me</a>
+</li>
+<li>Source: <a href="https://github.com/johnmarquess/marquess">https://github.com/johnmarquess/marquess</a>
+</li>
+<li>Theme: a modified <a href="http://foundation.zurb.com/">foundation v6</a> theme.</li>
+</ul>
+
+      </div>
+
+  </div>
+  </div>
+</div>
+</div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+
+    </div>
+  </div>
+
+    </div>
+
+        <div class="container site-footer-container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact GitHub</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage" class="site-footer-mark" title="GitHub">
+      <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2016 <span title="0.07765s from github-fe148-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+    
+
+    <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+      <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"></path></svg>
+      <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+        <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+      </button>
+      You can't perform that action at this time.
+    </div>
+
+
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/compat-40e365359d1c4db1e36a55be458e60f2b7c24d58b5a00ae13398480e7ba768e0.js"></script>
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-efdb851061bb7933d0e409f8be67f6ae483a2fa8612b913ae2678aa4abf4569a.js"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-8cefd4d3873fd29d8173f9b396fc15c35fde209962f937c739072971fb4a62c3.js"></script>
+      
+      
+      
+        <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/wiki-f66f7b1d105d3260266d868c381686b5aa5b131164683434ecfe75396add5805.js"></script>
+
+      
+      
+    <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner hidden">
+      <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"></path></svg>
+      <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+      <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    </div>
+    <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+    </button>
+  </div>
+</div>
+
+  </body>
+</html>
+
